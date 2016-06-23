@@ -10,18 +10,22 @@ class Calculator
 		
 		def addition()
 			@value1 + @value2
+			return @value1 + @value2
 		end
 		
 		def subtraction()
 			@value1 - @value2
+			return @value1 - @value2
 		end
 		
 		def multiply()
 			@value1 * @value2
+			return @value1 * @value2
 		end
 		
 		def divide()
 			@value1 / @value2.to_f
+			return @value1 / @value2.to_f
 		end
 end
 
